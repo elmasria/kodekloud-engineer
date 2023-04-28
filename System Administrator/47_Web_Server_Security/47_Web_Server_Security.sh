@@ -1,4 +1,4 @@
-sshpass -p  'BigGr33n' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
+sshpass -p  '***' ssh -o StrictHostKeyChecking=no banner@172.16.238.12
 
 sudo su -
 
