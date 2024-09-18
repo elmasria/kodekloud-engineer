@@ -15,3 +15,8 @@ sudo useradd -r -s /bin/false USERNAME
 ```
 sudo useradd -e YEAR-MONTH-DAY USERNAME
 ```
+
+- Linux User Data Transfer
+```
+find /source/directory -user specific_owner -type f -exec cp --parents -p {} /destination/directory \;
+```
