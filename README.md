@@ -20,3 +20,11 @@ sudo useradd -e YEAR-MONTH-DAY USERNAME
 ```
 find /source/directory -user specific_owner -type f -exec cp --parents -p {} /destination/directory \;
 ```
+
+- Secure Root SSH Access
+```
+sudo vi /etc/ssh/sshd_config
+PermitRootLogin no
+:wq
+sudo systemctl restart sshd
+```
